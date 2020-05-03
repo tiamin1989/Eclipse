@@ -8,7 +8,7 @@
 
 @media all and (max-width: 767px) {
   .header__nav-list {
-    min-width: inherit;
+    min-width: 0;
     flex-direction: column;
   }
 }
