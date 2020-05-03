@@ -1,0 +1,19 @@
+@import url('./_current/header__nav-element_current.css');
+
+.header__nav-element {
+  list-style-type: none;
+  padding: 0;
+}
+
+.header__nav-element:nth-child(1) {
+  display: none;
+}
+
+@media all and (max-width: 767px) {
+  .header__nav-element:nth-child(1) {
+    display: list-item;
+  }
+  .header__nav-element:not(:nth-child(1)) {
+    display: none;
+  }
+}

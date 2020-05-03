@@ -1,0 +1,19 @@
+.header__button {
+  margin: 3px 0 0;
+  height: 52px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: .5px;
+  padding: 0 58px 0 38px;
+  background: #A100FF url('../../../images/header__arrow.svg') right 22px center no-repeat;
+  border: 0;
+  border-radius: 3px;
+  color: inherit;
+  cursor: pointer;
+  transition: box-shadow .3s;
+}
+
+.header__button:hover {
+  box-shadow: 0 0 10px #A100FF;
+}

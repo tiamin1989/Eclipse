@@ -1,0 +1,25 @@
+.header__form {
+  min-width: 268px;
+  height: 61px;
+}
+
+@media all and (max-width: 899px) {
+  .header__form {
+    margin-right: 10px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header__form {
+    min-width: 282px;
+  }
+}
+
+@media all and (max-width: 485px) {
+  .header__form {
+    min-width: inherit;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+

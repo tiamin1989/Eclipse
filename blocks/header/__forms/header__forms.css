@@ -1,0 +1,13 @@
+.header__forms {
+  max-width: 650px;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0 0;
+}
+
+@media all and (max-width: 767px) {
+  .header__forms {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}

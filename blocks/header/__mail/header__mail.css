@@ -1,0 +1,10 @@
+.header__mail {
+  position: relative;
+}
+
+.header__mail::after {
+  position: absolute;
+  top: 6%;
+  right: 8%;
+  content: url('../../../images/header__arrow2.svg');
+}

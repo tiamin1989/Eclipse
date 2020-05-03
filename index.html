@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eclipse - HTML and CSS template</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__wrapper">
+      <img src="./images/logotype.svg" alt="Eclipse" class="header__logotype">
+      <nav class="header__nav">
+        <ul id="list" class="header__nav-list">
+          <li id="menu" class="header__nav-element"><a href="#" class="header__link">Menu ☰</a></li>
+          <li class="header__nav-element header__nav-element_current"><a href="#" class="header__link">About</a></li>
+          <li class="header__nav-element"><a href="#" class="header__link">Studio</a></li>
+          <li class="header__nav-element"><a href="#" class="header__link">Pricing</a></li>
+          <li class="header__nav-element"><a href="#" class="header__link">Blog</a></li>
+        </ul>
+        <button class="header__button">Join</button>
+      </nav>
+    </div>
+    <div class="header__wrapper-two">
+      <h1 class="header__title">Push yourself & your designs</h1>
+      <p class="header__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua.</p>
+      <div class="header__forms">
+        <div class="header__design">
+          <select name="design" id="design" class="header__design-select">
+            <option value="0" class="header__design-option" disabled selected>Design Style</option>
+            <option value="0" class="header__design-option" >Design Example #1</option>
+            <option value="1" class="header__design-option">Design Example #2</option>
+          </select>
+        </div>
+        <form action="POST" id="header-form" class="header__form">
+          <span class="header__mail">
+            <input type="text" placeholder="Email" class="header__mail-input">
+          </span>
+        </form>
+        <button class="header__forms-button" type="submit" form="header-form"></button>
+      </div>
+    </div>
+  </header>
+
+  <script src="./pages/index.js"></script>
+</body>
+
+</html>

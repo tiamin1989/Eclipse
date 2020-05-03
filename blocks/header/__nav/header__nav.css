@@ -1,0 +1,14 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  min-width: 480px;
+}
+
+@media all and (max-width: 767px) {
+  .header__nav {
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-width: 280px;
+  }
+}
+

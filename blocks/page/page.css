@@ -1,0 +1,8 @@
+.page {
+  /* background-image: linear-gradient(90deg, #7022bd, #3C086B); */
+  max-width: 1600px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', Arial, sans-serif;
+}

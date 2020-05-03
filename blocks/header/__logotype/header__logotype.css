@@ -1,0 +1,10 @@
+.header__logotype {
+  width: 68px;
+  object-fit: contain;
+}
+
+@media all and (max-width: 468px) {
+  .header__logotype {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.header__link {
+  color: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  line-height: 63px;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.header__link:hover {
+  opacity: .7;
+}

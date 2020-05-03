@@ -1,0 +1,17 @@
+.header__design-select {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  color: #333;
+}
+
+.header__design-select:focus {
+  outline: none;
+}

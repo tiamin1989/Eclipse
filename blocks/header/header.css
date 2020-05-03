@@ -1,0 +1,26 @@
+@import url('./__logotype/header__logotype.css');
+@import url('./__wrapper/header__wrapper.css');
+@import url('./__nav-list/header__nav-list.css');
+@import url('./__nav/header__nav.css');
+@import url('./__nav-element/header__nav-element.css');
+@import url('./__button/header__button.css');
+@import url('./__wrapper-two/header__wrapper-two.css');
+@import url('./__title/header__title.css');
+@import url('./__subtitle/header__subtitle.css');
+@import url('./__forms/header__forms.css');
+@import url('./__design/header__design.css');
+@import url('./__design-select/header__design-select.css');
+@import url('./__design-option/header__design-option.css');
+@import url('./__form/header__form.css');
+@import url('./__mail/header__mail.css');
+@import url('./__mail-input/header__mail-input.css');
+@import url('./__forms-button/header__forms-button.css');
+@import url('./__link/header__link.css');
+
+.header {
+  background-image: url('../../images/header__background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4.6% 13% 16.25% 12.8%;
+  color: #fff;
+}

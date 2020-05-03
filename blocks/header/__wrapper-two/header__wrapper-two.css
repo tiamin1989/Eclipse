@@ -1,0 +1,9 @@
+.header__wrapper-two {
+  margin-left: 4px;
+}
+
+@media all and (max-width: 320px) {
+  .header__wrapper-two {
+    margin-left: 0;
+  }
+}
