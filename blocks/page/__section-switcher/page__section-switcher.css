@@ -1,0 +1,10 @@
+@import url('./__design/page__section-switcher_design.css');
+@import url('./__features/page__section-switcher_features.css');
+
+.page__section-switcher {
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  cursor: pointer;
+}

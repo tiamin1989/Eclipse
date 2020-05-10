@@ -1,0 +1,13 @@
+@import url('./__title/features__title.css');
+@import url('./__description/features__description.css');
+@import url('./__feature/features__features.css');
+@import url('./__item/features__item.css');
+@import url('./__item-image/features__item-image.css');
+@import url('./__item-title/features__item-title.css');
+@import url('./__item-description/features__item-description.css');
+
+.features {
+  margin: 0 auto 0;
+  padding: 0 12% 149px;
+  border-bottom: 1px #D8E0E8 solid;
+}

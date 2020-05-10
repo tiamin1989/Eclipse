@@ -1,0 +1,19 @@
+@import url('./__title/design__title.css');
+@import url('./__description/design__description.css');
+@import url('./__iphone/design__iphone.css');
+
+.design {
+  box-sizing: border-box;
+  margin: 0 auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 543px;
+  padding: 114px 12% 0;
+  font-family: 'Montserrat', Arial, sans-serif;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url('../../../images/design__background.png');
+  overflow: hidden;
+}

@@ -1,0 +1,16 @@
+@import url('./__title/guidelines__title.css');
+@import url('./__description/guidelines__description.css');
+@import url('./__types/guidelines__types.css');
+@import url('./__type/guidelines__type.css');
+@import url('./__heading-wrapper/guidelines__heading-wrapper.css');
+@import url('./__wrapper/guidelines__wrapper.css');
+@import url('./__designs/guidelines__designs.css');
+@import url('./__designs-item/guidelines__designs-item.css');
+@import url('./__designs-item-image/guidelines__designs-item-image.css');
+@import url('./__designs-item-header/guidelines__designs-item-header.css');
+
+.guidelines {
+  margin: 0 auto 0;
+  padding: 134px 12% 149px;
+  background-color: #F6F9FA;
+}

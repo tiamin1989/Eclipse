@@ -1,0 +1,12 @@
+@import url('./_buy/features__item-image_buy.css');
+@import url('./_message/features__item-image_message.css');
+@import url('./_arrows/features__item-image_arrows.css');
+@import url('./_window/features__item-image_window.css');
+
+.features__item-image {
+  margin: 0 auto 0;
+  width: 137px;
+  height: 137px;
+  background-color: #8500D2;
+  border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.design__iphone {
+  margin: 68px auto 0;
+  max-width: 35.25%;
+  min-width: 340px;
+  object-fit: cover;
+}
+
+@media all and (max-width: 580px) {
+  .design__iphone {
+    min-width: 340px;
+  }
+}
+
+@media all and (max-width: 460px) {
+  .design__iphone {
+    min-width: 94%;
+  }
+}
+

@@ -1,0 +1,10 @@
+.features__description {
+  margin: 21px auto 0;
+  max-width: 680px;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #74797e;
+}

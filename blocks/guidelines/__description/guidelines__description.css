@@ -1,0 +1,11 @@
+.guidelines__description {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: .4px;
+  line-height: 25px;
+  color: #74797e;
+  text-align: center;
+  margin: 17px auto 0;
+  max-width: 920px;
+}

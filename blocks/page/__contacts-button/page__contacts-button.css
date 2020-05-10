@@ -1,0 +1,24 @@
+.page__contacts-button {
+  position: absolute;
+  bottom: -30px;
+  right: -80px;
+  z-index: 1;
+  width: 185px;
+  height: 58px;
+  background-color: #8500D2;
+  border: 0;
+  border-radius: 5px 5px 0 0;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.6px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transform: rotate(-90deg);
+  transition: box-shadow .3s;
+}
+
+.page__contacts-button:hover {
+  box-shadow: 0 0 10px #8500D2;
+}

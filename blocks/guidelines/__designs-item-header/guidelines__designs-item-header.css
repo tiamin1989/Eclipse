@@ -1,0 +1,12 @@
+.guidelines__designs-item-header {
+  margin: 0;
+  padding: 24px 20px 24px 0;
+  border-radius: 0 0 5px 5px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #333b42;
+  text-align: center;
+  text-transform: uppercase;
+  background: #fff url('../../../images/guidelines__arrow.svg') no-repeat 87% 50%;
+}

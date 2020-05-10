@@ -1,0 +1,9 @@
+.features__title {
+  margin: 156px auto 0;
+  max-width: 280px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333b42;
+}

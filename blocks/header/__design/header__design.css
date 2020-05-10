@@ -12,7 +12,7 @@
 .header__design::after {
   position: absolute;
   top: 35%;
-  right: 7%;
+  right: 7.5%;
   content: url('../../../images/header__select.svg');
   pointer-events: none;
 }

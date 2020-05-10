@@ -1,0 +1,7 @@
+.page__section-switcher_design {
+  z-index: 2;
+  bottom: -66px;
+  left: 46.8%;
+  background: url('../../../../images/page__section-switcher.svg') 50% 50% no-repeat,
+              url('../../../../images/design__background.png');
+}

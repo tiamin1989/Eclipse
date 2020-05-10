@@ -1,0 +1,8 @@
+.features__features {
+  margin: 57px auto 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 300px));
+  grid-row-gap: 30px;
+}

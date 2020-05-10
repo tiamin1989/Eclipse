@@ -9,7 +9,9 @@
 </head>
 
 <body class="page">
+
   <header class="header">
+
     <div class="header__wrapper">
       <img src="./images/logotype.svg" alt="Eclipse" class="header__logotype">
       <nav class="header__nav">
@@ -23,6 +25,7 @@
         <button class="header__button">Join</button>
       </nav>
     </div>
+
     <div class="header__wrapper-two">
       <h1 class="header__title">Push yourself & your designs</h1>
       <p class="header__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -31,7 +34,7 @@
         <div class="header__design">
           <select name="design" id="design" class="header__design-select">
             <option value="0" class="header__design-option" disabled selected>Design Style</option>
-            <option value="0" class="header__design-option" >Design Example #1</option>
+            <option value="0" class="header__design-option">Design Example #1</option>
             <option value="1" class="header__design-option">Design Example #2</option>
           </select>
         </div>
@@ -43,7 +46,77 @@
         <button class="header__forms-button" type="submit" form="header-form"></button>
       </div>
     </div>
+    <!-- <button class="page__contacts-button">Contact us</button> -->
+    <!-- <a href="#design" name="design" class="page__section-switcher page__section-switcher_design"></a> -->
   </header>
+
+  <section class="design">
+    <h2 class="design__title">Latest design style</h2>
+    <p class="design__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <img src="./images/iphone.png" alt="iPhone" class="design__iphone">
+    <!-- <a href="#features" name="features" class="page__section-switcher page__section-switcher_features"></a> -->
+  </section>
+
+  <section class="features">
+    <h2 class="features__title">Features of app</h2>
+    <p class="features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <ul class="features__features">
+      <li class="features__item">
+        <div class="features__item-image features__item-image_buy"></div>
+        <h3 class="features__item-title">Lorem ipsum dolor sit</h3>
+        <p class="features__item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+      </li>
+      <li class="features__item">
+        <div class="features__item-image features__item-image_message"></div>
+        <h3 class="features__item-title">Ametconsectetur </h3>
+        <p class="features__item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+      </li>
+      <li class="features__item">
+        <div class="features__item-image features__item-image_arrows"></div>
+        <h3 class="features__item-title">Lorem ipsum dolor sit</h3>
+        <p class="features__item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+      </li>
+      <li class="features__item">
+        <div class="features__item-image features__item-image_window"></div>
+        <h3 class="features__item-title">Lorem ipsum dolor sit</h3>
+        <p class="features__item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="guidelines">
+
+    <div class="guidelines__heading-wrapper">
+      <h2 class="guidelines__title">Our design guidelines</h2>
+      <p class="guidelines__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+    </div>
+
+    <div class="guidelines__wrapper">
+      <ul class="guidelines__types">
+        <li class="guidelines__type">Development
+        <li class="guidelines__type">Design
+        <li class="guidelines__type">Business
+        <li class="guidelines__type">Arts
+      </ul>
+    </div>
+
+    <ul class="guidelines__designs">
+      <li class="guidelines__designs-item">
+        <img src="./images/guidelines__design.jpg" alt="Design Example" class="guidelines__designs-item-image">
+        <h3 class="guidelines__designs-item-header">Design listing one</h3>
+      </li>
+      <li class="guidelines__designs-item">
+        <img src="./images/guidelines__design.jpg" alt="Design Example" class="guidelines__designs-item-image">
+        <h3 class="guidelines__designs-item-header">Design listing one</h3>
+      </li>
+      <li class="guidelines__designs-item">
+        <img src="./images/guidelines__design.jpg" alt="Design Example" class="guidelines__designs-item-image">
+        <h3 class="guidelines__designs-item-header">Design listing one</h3>
+      </li>
+    </ul>
+
+
+  </section>
 
   <script src="./pages/index.js"></script>
 </body>

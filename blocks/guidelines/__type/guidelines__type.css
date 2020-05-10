@@ -1,0 +1,24 @@
+.guidelines__type {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #28C8C6;
+  text-transform: uppercase;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.guidelines__type:nth-child(even) {
+  padding: 20px 40px 20px 40px;
+}
+
+.guidelines__type:nth-child(odd) {
+  padding: 20px 30px 20px 30px;
+}
+
+.guidelines__type:hover {
+  background-color: #28C8C6;
+  color: #fff;
+  cursor: pointer;
+}

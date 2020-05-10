@@ -1,0 +1,23 @@
+.design__title {
+  margin: 0 auto 0;
+  text-align: center;
+  max-width: 480px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #333b42;
+  letter-spacing: .5px;
+}
+
+@media all and (max-width: 1599px) {
+  .design__title {
+    font-size: 2.5vw;
+  }
+}
+
+@media all and (max-width: 1119px) {
+  .design__title {
+    font-size: 28px;
+  }
+}

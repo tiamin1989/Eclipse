@@ -18,9 +18,12 @@
 @import url('./__link/header__link.css');
 
 .header {
+  position: relative;
+  top: 0;
+  left: 0;
   background-image: url('../../images/header__background.png');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 4.6% 13% 16.25% 12.8%;
+  padding: 4.6% 12% 16.25% 12.8%;
   color: #fff;
 }
