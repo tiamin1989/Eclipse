@@ -1,0 +1,5 @@
+.action__wrapper {
+  display: grid;
+  grid-template-columns: 177px max-content;
+  grid-gap: 40px 40px;
+}

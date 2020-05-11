@@ -1,0 +1,14 @@
+@import url('./__wrapper/action__wrapper.css');
+@import url('./__logotype/action__logotype.css');
+@import url('./__wrapper-text/action__wrapper-text.css');
+@import url('./__title/action__title.css');
+@import url('./__description/action__description.css');
+@import url('./__macbook/action__macbook.css');
+
+.action {
+  margin: 0 auto 0;
+  padding: 333px 13.1% 318px;
+  background: url('../../../images/action__background.jpg') no-repeat;
+  position: relative;
+  z-index: 0;
+}
